@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0;
+    background-color: #252934;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-family: 'Lemon Milk';
+    font-weight: lighter;
+    font-size: 38px;
+    color: white;
+}
+header a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+header a p{
+    font-size: 16px;
+    font-family: 'Graphik';
+    color: white;
+}
+.container{
+    background-color: #252934;
+}
+h2{
+    font-family: "Graphik";
+    color: white;
+    font-size: 32px;
+}
+.section1{
+    display: flex;
+    width: 80vw;
+    margin: 0 10vw;
+}
+.A_gauche{
+    width: 30vw;
+}
+.A_droite{
+    width: 70vw;
+}
+.A_droite img{
+    width: 100%;
+}
